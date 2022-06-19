@@ -641,6 +641,9 @@ fn render(game: &mut GameState) {
     render_walls(&mut game.screen, &mut game.depth_buf);
 }
 
+/*
+ *  TODO: Figure out why input doesn't work on walyand.
+ */
 pub fn main() -> Result<(), String> {
     let mut game = GameState::new();
 
